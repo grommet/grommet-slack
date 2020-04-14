@@ -1,0 +1,2 @@
+# grommet-slack
+Slack integration
