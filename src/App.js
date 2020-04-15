@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Box,
   Button,
@@ -15,10 +15,22 @@ const apiUrl =
 // const apiUrl = "http://localhost:8080/images";
 
 const App = () => {
+  const [themeMode, setThemeMode] = useState();
   const [busy, setBusy] = useState();
   const [message, setMessage] = useState();
+
+  useEffect(() => {
+    if (window.matchMedia) {
+      setThemeMode(
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+          ? 'dark'
+          : 'light',
+      );
+    }
+  }, []);
+
   return (
-    <Grommet full theme={grommet}>
+    <Grommet full theme={grommet} themeMode={themeMode}>
       <Box fill justify="center" align="center" margin="large">
         <Form
           onSubmit={({ value: { email } }) => {
