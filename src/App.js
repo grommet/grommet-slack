@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   Box,
   Button,
@@ -7,10 +7,12 @@ import {
   Grommet,
   MaskedInput,
   Paragraph,
-  grommet
-} from "grommet";
+  grommet,
+} from 'grommet';
 
-const apiUrl = "http://localhost:8080/images";
+const apiUrl =
+  'https://us-central1-grommet-designer.cloudfunctions.net/invites';
+// const apiUrl = "http://localhost:8080/images";
 
 const App = () => {
   const [busy, setBusy] = useState();
@@ -23,20 +25,20 @@ const App = () => {
             setBusy(true);
             const body = JSON.stringify({ email });
             fetch(apiUrl, {
-              method: "POST",
+              method: 'POST',
               headers: {
-                "Content-Type": "application/json; charset=UTF-8",
-                "Content-Length": body.length
+                'Content-Type': 'application/json; charset=UTF-8',
+                'Content-Length': body.length,
               },
-              body
+              body,
             })
               .then(response => {
                 if (response.ok) {
-                  setMessage("Invited!");
+                  setMessage('Invited!');
                 } else {
                   response.text().then(error => {
-                    if (error === "already_in_team")
-                      setMessage("Already a member");
+                    if (error === 'already_in_team')
+                      setMessage('Already a member');
                     else setMessage(error);
                   });
                 }
@@ -52,11 +54,11 @@ const App = () => {
             <MaskedInput
               name="email"
               mask={[
-                { regexp: /^[\w\-_.]+$/, placeholder: "sample" },
-                { fixed: "@" },
-                { regexp: /^[\w]+$/, placeholder: "my" },
-                { fixed: "." },
-                { regexp: /^[\w]+$/, placeholder: "com" }
+                { regexp: /^[\w\-_.]+$/, placeholder: 'sample' },
+                { fixed: '@' },
+                { regexp: /^[\w]+$/, placeholder: 'my' },
+                { fixed: '.' },
+                { regexp: /^[\w]+$/, placeholder: 'com' },
               ]}
             />
           </FormField>

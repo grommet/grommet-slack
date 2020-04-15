@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App empty 1`] = `
+<div
+  class="StyledGrommet-sc-19lkkz7-0 cQKRXe"
+>
+  <div
+    class="StyledBox-sc-13pk1d4-0 fNIzJH"
+  >
+    <form>
+      <p
+        class="StyledParagraph-tbetod-0 gfTpGC"
+      >
+        Enter an email address of someone you'd like to invite to the grommet slack channels.
+      </p>
+      <div
+        class="StyledBox-sc-13pk1d4-0 eIRqpH FormField__FormFieldBox-m9hood-0 ddgSii"
+      >
+        <label
+          class="StyledText-sc-1sadyjn-0 enbIRN"
+        >
+          email
+        </label>
+        <div
+          class="StyledBox-sc-13pk1d4-0 cIDibG"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 jJdKAu"
+          >
+            <div
+              class="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 eZPDpF"
+            >
+              <input
+                autocomplete="off"
+                class="StyledMaskedInput-sc-99vkfa-0 jrwHbA"
+                name="email"
+                placeholder="sample@my.com"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="StyledButton-sc-323bzc-0 gnVnHI"
+        type="submit"
+      >
+        Invite
+      </button>
+    </form>
+  </div>
+</div>
+`;
