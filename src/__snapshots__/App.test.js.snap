@@ -2,10 +2,10 @@
 
 exports[`App empty 1`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 cQKRXe"
+  class="StyledGrommet-sc-19lkkz7-0 DtPgq"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 fNIzJH"
+    class="StyledBox-sc-13pk1d4-0 bmgfSg"
   >
     <form>
       <p
@@ -14,7 +14,7 @@ exports[`App empty 1`] = `
         Enter an email address of someone you'd like to invite to the grommet slack channels.
       </p>
       <div
-        class="StyledBox-sc-13pk1d4-0 eIRqpH FormField__FormFieldBox-m9hood-0 ddgSii"
+        class="StyledBox-sc-13pk1d4-0 dtCrhk FormField__FormFieldBox-m9hood-0 eenrNp"
       >
         <label
           class="StyledText-sc-1sadyjn-0 enbIRN"
@@ -22,17 +22,17 @@ exports[`App empty 1`] = `
           email
         </label>
         <div
-          class="StyledBox-sc-13pk1d4-0 cIDibG"
+          class="StyledBox-sc-13pk1d4-0 kGPDbB FormField__FormFieldContentBox-m9hood-1 ckZStK"
         >
           <div
-            class="StyledBox-sc-13pk1d4-0 jJdKAu"
+            class="StyledBox-sc-13pk1d4-0 bFwQzJ"
           >
             <div
               class="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 eZPDpF"
             >
               <input
                 autocomplete="off"
-                class="StyledMaskedInput-sc-99vkfa-0 jrwHbA"
+                class="StyledMaskedInput-sc-99vkfa-0 dTZrhc"
                 name="email"
                 placeholder="sample@my.com"
                 value=""
@@ -42,7 +42,7 @@ exports[`App empty 1`] = `
         </div>
       </div>
       <button
-        class="StyledButton-sc-323bzc-0 gnVnHI"
+        class="StyledButton-sc-323bzc-0 bJbzun"
         type="submit"
       >
         Invite
