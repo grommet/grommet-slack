@@ -2,47 +2,43 @@
 
 exports[`App empty 1`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 DtPgq"
+  class="StyledGrommet-sc-19lkkz7-0 duwKjB"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 bmgfSg"
+    class="StyledBox-sc-13pk1d4-0 dLaNf"
   >
     <form>
       <p
-        class="StyledParagraph-tbetod-0 gfTpGC"
+        class="StyledParagraph-tbetod-0 gXnKZG"
       >
         Enter an email address of someone you'd like to invite to the grommet slack channels.
       </p>
       <div
-        class="StyledBox-sc-13pk1d4-0 dtCrhk FormField__FormFieldBox-m9hood-0 eenrNp"
+        class="StyledBox-sc-13pk1d4-0 dXitLD FormField__FormFieldBox-m9hood-0 eQPoge"
       >
         <label
-          class="StyledText-sc-1sadyjn-0 enbIRN"
+          class="StyledText-sc-1sadyjn-0 dEHaPk"
         >
           email
         </label>
         <div
-          class="StyledBox-sc-13pk1d4-0 kGPDbB FormField__FormFieldContentBox-m9hood-1 ckZStK"
+          class="StyledBox-sc-13pk1d4-0 fQShVd FormField__FormFieldContentBox-m9hood-1"
         >
           <div
-            class="StyledBox-sc-13pk1d4-0 bFwQzJ"
+            class="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 kUWeNG"
           >
-            <div
-              class="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 eZPDpF"
-            >
-              <input
-                autocomplete="off"
-                class="StyledMaskedInput-sc-99vkfa-0 dTZrhc"
-                name="email"
-                placeholder="sample@my.com"
-                value=""
-              />
-            </div>
+            <input
+              autocomplete="off"
+              class="StyledMaskedInput-sc-99vkfa-0 hcJtBe"
+              name="email"
+              placeholder="sample@my.com"
+              value=""
+            />
           </div>
         </div>
       </div>
       <button
-        class="StyledButton-sc-323bzc-0 bJbzun"
+        class="StyledButton-sc-323bzc-0 hKVcDn"
         type="submit"
       >
         Invite
