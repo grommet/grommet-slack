@@ -36,6 +36,7 @@ const App = () => {
       <ResponsiveContext.Consumer>
         {(responsive) => (
           <Box
+            justify="center"
             fill
             direction={responsive === 'large' ? 'row' : 'column'}
             pad="large"
@@ -44,6 +45,7 @@ const App = () => {
               margin={responsive === 'large' ? 'large' : 'none'}
               height={responsive}
               width="fill"
+              alignSelf="center"
             >
               <Image
                 a11yTitle="Gremlin Image"
