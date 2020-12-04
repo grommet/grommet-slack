@@ -81,8 +81,10 @@ const App = () => {
                         setMessage('Invited!');
                       } else {
                         response.text().then((error) => {
-                          if (error === 'already_in_team')
+                          if (error === 'already_in_team_invited_user')
                             setMessage('Already a member');
+                          else if (error === 'invalid_email')
+                            setMessage('Enter a valid email address');
                           else setMessage(error);
                         });
                       }
@@ -104,10 +106,13 @@ const App = () => {
                   />
                 </FormField>
                 {message && (
-                  <Paragraph margin="none" color="status-error">
-                    {message === 'invalid_email'
-                      ? 'Enter a valid email address.'
-                      : message}
+                  <Paragraph
+                    margin="none"
+                    color={
+                      message === 'Invited!' ? 'status-ok' : 'status-error'
+                    }
+                  >
+                    {message}
                   </Paragraph>
                 )}
                 <Button
