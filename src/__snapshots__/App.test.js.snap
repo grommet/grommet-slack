@@ -2,48 +2,144 @@
 
 exports[`App empty 1`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 duwKjB"
+  class="StyledGrommet-sc-19lkkz7-0 bWDPZI"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 dLaNf"
+    class="StyledBox-sc-13pk1d4-0 ygJUu"
   >
-    <form>
+    <div
+      class="StyledBox-sc-13pk1d4-0 hNCGjq"
+    >
+      <img
+        aria-label="Gremlin Image"
+        class="StyledImage-ey4zx9-0 iBeQsm"
+        src="Gremlin.svg"
+      />
+    </div>
+    <div
+      class="StyledBox-sc-13pk1d4-0 eAyXGY"
+    >
+      <span
+        class="StyledText-sc-1sadyjn-0 DkZvS"
+      >
+        Sign up for our
+      </span>
+      <h1
+        class="StyledHeading-sc-1rdh4aw-0 hmaxin"
+      >
+        Grommet Slack Channel
+      </h1>
       <p
-        class="StyledParagraph-tbetod-0 gXnKZG"
+        class="StyledParagraph-tbetod-0 bvpLHz"
       >
-        Enter an email address of someone you'd like to invite to the grommet slack channels.
+        Join to have access to the Grommet community to stay updated, receive troubleshooting and much more!
       </p>
-      <div
-        class="StyledBox-sc-13pk1d4-0 dXitLD FormField__FormFieldBox-m9hood-0 eQPoge"
-      >
-        <label
-          class="StyledText-sc-1sadyjn-0 dEHaPk"
-        >
-          email
-        </label>
+      <form>
         <div
-          class="StyledBox-sc-13pk1d4-0 fQShVd FormField__FormFieldContentBox-m9hood-1"
+          class="StyledBox-sc-13pk1d4-0 dLXLoO FormField__FormFieldBox-m9hood-0 jGEMXj"
+        >
+          <label
+            class="StyledText-sc-1sadyjn-0 drTEXR"
+          >
+            Email
+          </label>
+          <div
+            class="StyledBox-sc-13pk1d4-0 gmReJc FormField__FormFieldContentBox-m9hood-1"
+          >
+            <div
+              class="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 dOerlP"
+            >
+              <input
+                aria-label="Email"
+                autocomplete="off"
+                class="StyledMaskedInput-sc-99vkfa-0 dCkJIz"
+                name="email"
+                placeholder="sample@email.com"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          class="StyledButton-sc-323bzc-0 kkrMwN"
+          type="submit"
+        >
+          Join Community
+        </button>
+      </form>
+      <div
+        class="StyledBox-sc-13pk1d4-0 fJNzIx"
+      >
+        <h2
+          class="StyledHeading-sc-1rdh4aw-0 frzykv"
+        >
+          Channels
+        </h2>
+        <p
+          class="StyledParagraph-tbetod-0 gHUcCr"
+        >
+          Popular channels in our Slack community
+        </p>
+        <div
+          class="StyledGrid-sc-1wofa1l-0 gTElmK"
         >
           <div
-            class="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 kUWeNG"
+            class="StyledBox-sc-13pk1d4-0 kSwbcK"
           >
-            <input
-              autocomplete="off"
-              class="StyledMaskedInput-sc-99vkfa-0 hcJtBe"
-              name="email"
-              placeholder="sample@my.com"
-              value=""
-            />
+            <span
+              class="StyledText-sc-1sadyjn-0 fnemch"
+            >
+              # general
+            </span>
+          </div>
+          <div
+            class="StyledBox-sc-13pk1d4-0 kSwbcK"
+          >
+            <span
+              class="StyledText-sc-1sadyjn-0 fnemch"
+            >
+              # i-made-this
+            </span>
+          </div>
+          <div
+            class="StyledBox-sc-13pk1d4-0 kSwbcK"
+          >
+            <span
+              class="StyledText-sc-1sadyjn-0 fnemch"
+            >
+              # announcements
+            </span>
+          </div>
+          <div
+            class="StyledBox-sc-13pk1d4-0 kSwbcK"
+          >
+            <span
+              class="StyledText-sc-1sadyjn-0 fnemch"
+            >
+              # designer
+            </span>
+          </div>
+          <div
+            class="StyledBox-sc-13pk1d4-0 kSwbcK"
+          >
+            <span
+              class="StyledText-sc-1sadyjn-0 fnemch"
+            >
+              # help
+            </span>
+          </div>
+          <div
+            class="StyledBox-sc-13pk1d4-0 kSwbcK"
+          >
+            <span
+              class="StyledText-sc-1sadyjn-0 fnemch"
+            >
+              # typescript
+            </span>
           </div>
         </div>
       </div>
-      <button
-        class="StyledButton-sc-323bzc-0 hKVcDn"
-        type="submit"
-      >
-        Invite
-      </button>
-    </form>
+    </div>
   </div>
 </div>
 `;
