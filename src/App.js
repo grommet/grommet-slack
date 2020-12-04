@@ -107,7 +107,7 @@ const App = () => {
                   <Paragraph margin="none" color="status-error">
                     {message === 'invalid_email'
                       ? 'Enter a valid email address.'
-                      : { message }}
+                      : message}
                   </Paragraph>
                 )}
                 <Button
