@@ -101,7 +101,7 @@ const App = () => {
                     mask={[
                       { regexp: /^[\w\-_.]+$/, placeholder: 'sample' },
                       { fixed: '@' },
-                      { regexp: /^[\w]+$/, placeholder: 'email' },
+                      { regexp: /^[\w.]+$/, placeholder: 'email' },
                       { fixed: '.' },
                       { regexp: /^[\w]+$/, placeholder: 'com' },
                     ]}
