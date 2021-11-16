@@ -2,57 +2,57 @@
 
 exports[`App empty 1`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 bWDPZI"
+  class="StyledGrommet-sc-19lkkz7-0 kPGNFX"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 elYpAK"
+    class="StyledBox-sc-13pk1d4-0 dNPBOp"
   >
     <div
-      class="StyledBox-sc-13pk1d4-0 jA-drzU"
+      class="StyledBox-sc-13pk1d4-0 DUfqK"
     >
       <img
         aria-label="Gremlin Image"
-        class="StyledImage-ey4zx9-0 iBeQsm"
+        class="StyledImage-sc-ey4zx9-0 fOsWNE"
         src="Gremlin.svg"
       />
     </div>
     <div
-      class="StyledBox-sc-13pk1d4-0 eAyXGY"
+      class="StyledBox-sc-13pk1d4-0 kypIng"
     >
       <span
-        class="StyledText-sc-1sadyjn-0 DkZvS"
+        class="StyledText-sc-1sadyjn-0 gKFELF"
       >
         Sign up for our
       </span>
       <h1
-        class="StyledHeading-sc-1rdh4aw-0 hmaxin"
+        class="StyledHeading-sc-1rdh4aw-0 eZUwoM"
       >
         Grommet Slack Channel
       </h1>
       <p
-        class="StyledParagraph-tbetod-0 bvpLHz"
+        class="StyledParagraph-sc-tbetod-0 hWMepx"
       >
         Join to have access to the Grommet community to stay updated, receive troubleshooting and much more!
       </p>
       <form>
         <div
-          class="StyledBox-sc-13pk1d4-0 dLXLoO FormField__FormFieldBox-m9hood-0 jGEMXj"
+          class="StyledBox-sc-13pk1d4-0 bdFdHV FormField__FormFieldBox-sc-m9hood-0 bNDIlh"
         >
           <label
-            class="StyledText-sc-1sadyjn-0 drTEXR"
+            class="StyledText-sc-1sadyjn-0 gvmMDy"
           >
             Email
           </label>
           <div
-            class="StyledBox-sc-13pk1d4-0 gmReJc FormField__FormFieldContentBox-m9hood-1"
+            class="StyledBox-sc-13pk1d4-0 flwsbj FormField__FormFieldContentBox-sc-m9hood-1"
           >
             <div
-              class="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 dOerlP"
+              class="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 gNPSOw"
             >
               <input
                 aria-label="Email"
                 autocomplete="off"
-                class="StyledMaskedInput-sc-99vkfa-0 dCkJIz"
+                class="StyledMaskedInput-sc-99vkfa-0 joALkV"
                 name="email"
                 placeholder="sample@email.com"
                 value=""
@@ -61,78 +61,78 @@ exports[`App empty 1`] = `
           </div>
         </div>
         <button
-          class="StyledButton-sc-323bzc-0 kkrMwN"
+          class="StyledButton-sc-323bzc-0 gNFUjz"
           type="submit"
         >
           Join Community
         </button>
       </form>
       <div
-        class="StyledBox-sc-13pk1d4-0 fJNzIx"
+        class="StyledBox-sc-13pk1d4-0 gmGVFW"
       >
         <h2
-          class="StyledHeading-sc-1rdh4aw-0 frzykv"
+          class="StyledHeading-sc-1rdh4aw-0 biqhsg"
         >
           Channels
         </h2>
         <p
-          class="StyledParagraph-tbetod-0 gHUcCr"
+          class="StyledParagraph-sc-tbetod-0 fPeEEN"
         >
           Popular channels in our Slack community
         </p>
         <div
-          class="StyledGrid-sc-1wofa1l-0 gTElmK"
+          class="StyledGrid-sc-1wofa1l-0 exESK"
         >
           <div
-            class="StyledBox-sc-13pk1d4-0 kSwbcK"
+            class="StyledBox-sc-13pk1d4-0 loDHTl"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 fnemch"
+              class="StyledText-sc-1sadyjn-0 bpoUBq"
             >
               # general
             </span>
           </div>
           <div
-            class="StyledBox-sc-13pk1d4-0 kSwbcK"
+            class="StyledBox-sc-13pk1d4-0 loDHTl"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 fnemch"
+              class="StyledText-sc-1sadyjn-0 bpoUBq"
             >
               # i-made-this
             </span>
           </div>
           <div
-            class="StyledBox-sc-13pk1d4-0 kSwbcK"
+            class="StyledBox-sc-13pk1d4-0 loDHTl"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 fnemch"
+              class="StyledText-sc-1sadyjn-0 bpoUBq"
             >
               # announcements
             </span>
           </div>
           <div
-            class="StyledBox-sc-13pk1d4-0 kSwbcK"
+            class="StyledBox-sc-13pk1d4-0 loDHTl"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 fnemch"
+              class="StyledText-sc-1sadyjn-0 bpoUBq"
             >
               # designer
             </span>
           </div>
           <div
-            class="StyledBox-sc-13pk1d4-0 kSwbcK"
+            class="StyledBox-sc-13pk1d4-0 loDHTl"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 fnemch"
+              class="StyledText-sc-1sadyjn-0 bpoUBq"
             >
               # help
             </span>
           </div>
           <div
-            class="StyledBox-sc-13pk1d4-0 kSwbcK"
+            class="StyledBox-sc-13pk1d4-0 loDHTl"
           >
             <span
-              class="StyledText-sc-1sadyjn-0 fnemch"
+              class="StyledText-sc-1sadyjn-0 bpoUBq"
             >
               # typescript
             </span>
