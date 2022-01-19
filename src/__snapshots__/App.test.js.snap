@@ -5,10 +5,10 @@ exports[`App empty 1`] = `
   class="StyledGrommet-sc-19lkkz7-0 kPGNFX"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 dNPBOp"
+    class="StyledBox-sc-13pk1d4-0 iWxBtY"
   >
     <div
-      class="StyledBox-sc-13pk1d4-0 DUfqK"
+      class="StyledBox-sc-13pk1d4-0 egJZwn"
     >
       <img
         aria-label="Gremlin Image"
@@ -17,7 +17,7 @@ exports[`App empty 1`] = `
       />
     </div>
     <div
-      class="StyledBox-sc-13pk1d4-0 kypIng"
+      class="StyledBox-sc-13pk1d4-0 kFfyZV"
     >
       <span
         class="StyledText-sc-1sadyjn-0 gKFELF"
@@ -36,7 +36,7 @@ exports[`App empty 1`] = `
       </p>
       <form>
         <div
-          class="StyledBox-sc-13pk1d4-0 bdFdHV FormField__FormFieldBox-sc-m9hood-0 bNDIlh"
+          class="StyledBox-sc-13pk1d4-0 cImcDU FormField__FormFieldBox-sc-m9hood-0 bNDIlh"
         >
           <label
             class="StyledText-sc-1sadyjn-0 gvmMDy"
@@ -44,7 +44,7 @@ exports[`App empty 1`] = `
             Email
           </label>
           <div
-            class="StyledBox-sc-13pk1d4-0 flwsbj FormField__FormFieldContentBox-sc-m9hood-1"
+            class="StyledBox-sc-13pk1d4-0 ctACHi FormField__FormFieldContentBox-sc-m9hood-1"
           >
             <div
               class="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 gNPSOw"
@@ -68,7 +68,7 @@ exports[`App empty 1`] = `
         </button>
       </form>
       <div
-        class="StyledBox-sc-13pk1d4-0 gmGVFW"
+        class="StyledBox-sc-13pk1d4-0 fDaUJX"
       >
         <h2
           class="StyledHeading-sc-1rdh4aw-0 biqhsg"
@@ -84,7 +84,7 @@ exports[`App empty 1`] = `
           class="StyledGrid-sc-1wofa1l-0 exESK"
         >
           <div
-            class="StyledBox-sc-13pk1d4-0 loDHTl"
+            class="StyledBox-sc-13pk1d4-0 bOiLls"
           >
             <span
               class="StyledText-sc-1sadyjn-0 bpoUBq"
@@ -93,7 +93,7 @@ exports[`App empty 1`] = `
             </span>
           </div>
           <div
-            class="StyledBox-sc-13pk1d4-0 loDHTl"
+            class="StyledBox-sc-13pk1d4-0 bOiLls"
           >
             <span
               class="StyledText-sc-1sadyjn-0 bpoUBq"
@@ -102,7 +102,7 @@ exports[`App empty 1`] = `
             </span>
           </div>
           <div
-            class="StyledBox-sc-13pk1d4-0 loDHTl"
+            class="StyledBox-sc-13pk1d4-0 bOiLls"
           >
             <span
               class="StyledText-sc-1sadyjn-0 bpoUBq"
@@ -111,7 +111,7 @@ exports[`App empty 1`] = `
             </span>
           </div>
           <div
-            class="StyledBox-sc-13pk1d4-0 loDHTl"
+            class="StyledBox-sc-13pk1d4-0 bOiLls"
           >
             <span
               class="StyledText-sc-1sadyjn-0 bpoUBq"
@@ -120,7 +120,7 @@ exports[`App empty 1`] = `
             </span>
           </div>
           <div
-            class="StyledBox-sc-13pk1d4-0 loDHTl"
+            class="StyledBox-sc-13pk1d4-0 bOiLls"
           >
             <span
               class="StyledText-sc-1sadyjn-0 bpoUBq"
@@ -129,7 +129,7 @@ exports[`App empty 1`] = `
             </span>
           </div>
           <div
-            class="StyledBox-sc-13pk1d4-0 loDHTl"
+            class="StyledBox-sc-13pk1d4-0 bOiLls"
           >
             <span
               class="StyledText-sc-1sadyjn-0 bpoUBq"
